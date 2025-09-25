@@ -1,0 +1,272 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+/*      HEADER       */
+.header {
+    display: flex;
+    justify-content: space-between;
+    background-color: #000038;
+    padding: 20px 40px;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+}
+
+.logo {
+    color: #ffffff;
+    font-weight: bold;
+}
+
+select {
+    padding: 10px 20px;
+    background-color: transparent;
+    color: #ffffff;
+    border: none;
+    font-size: 20px;
+    font-weight: bold;
+
+}
+
+a {
+    text-decoration: none;
+    font-size: 20px;
+    margin: 0 10px;
+    color: #ffffff;
+    font-weight: bold;
+}
+
+
+/* BANNER */
+
+
+.banner {
+    background-color: #000038;
+    text-align: center;
+    padding: 80px;
+}
+h4 {
+    font-size: 20px;
+    color: #e0990b;
+}
+
+#h1 {
+    font-size: 64px;
+    color: #ffffff;
+}
+
+#p {
+    margin: 20px 0px;
+    font-size: 24px;
+    color: white;
+}
+
+#sign {
+    padding: 20px 30px;
+    background-color: #e09900;
+    color: #ffffff;
+    font-size: 20px;
+    font-weight: bold;
+    border: none;
+    border-radius: 50px;
+    margin-bottom: 30px;
+}
+
+
+/* MAIN    */
+
+.rome {
+    text-align: center;
+    padding: 100px;
+    margin: 100px 20px;
+
+}
+
+#h2 {
+    font-size: 54px;
+    color: #000038;
+    margin-bottom: 20px;
+}
+
+#prome {
+    font-size: 24px;
+    margin-bottom: 20px;
+}
+
+.learn {
+    padding: 20px;
+    font-size: 20px;
+    border: none;
+    font-weight: bold;
+    background-color: transparent;
+    color: #000038;
+}
+
+/* CONTENT */
+
+
+.content1 {
+    display: flex;
+    justify-content: space-between;
+    padding: 0 50px;
+    margin: 50px 0;
+
+}
+
+.content_1 {
+    h2 {
+        font-size: 32px;
+        font-weight: bolder;
+        margin-bottom: 20px;
+        color: #000038;
+
+    }
+
+    img {
+        border-radius: 50px;
+        transform: scaleY();
+    }
+}
+
+.list {
+    font-size: 24px;
+    line-height: 1.9;
+    font-weight: 500;
+    color: #000038;
+}
+
+.list_btn {
+    padding: 20px 40px;
+    border: none;
+    border-radius: 50px;
+    background-color: #000038;
+    font-size: 20px;
+    color: #ffffff;
+    margin-top: 20px;
+    cursor: pointer;
+}
+
+.content2 {
+    display: flex;
+    justify-content: space-between;
+    padding: 0 50px;
+    align-items: center;
+}
+
+.content_2 {
+    h1 {
+        font-size: 48px;
+        font-weight: bolder;
+        margin-bottom: 20px;
+        color: #000038;
+    }
+
+    p {
+        font-size: 18px;
+        line-height: 1.6;
+    }
+}
+
+.content3 {
+    display: flex;
+    justify-content: space-between;
+    padding: 0 50px;
+    margin: 50px 0;
+}
+
+.content_3 {
+    h1 {
+        font-size: 32px;
+        font-weight: bolder;
+        margin-bottom: 20px;
+        color: #000038;
+
+    }
+
+    p {
+        font-size: 16px;
+        line-height: 1.6;
+        color: rgb(34, 33, 33);
+    }
+
+    img {
+        border-radius: 50px;
+    }
+}
+
+.content4 {
+    display: flex;
+    justify-content: space-between;
+    padding: 0 50px;
+    margin: 50px 0;
+    align-items: center;
+}
+
+.content_4 {
+    h1 {
+        font-size: 32px;
+        font-weight: bolder;
+        margin-bottom: 20px;
+        color: #000038;
+
+    }
+
+    p {
+        font-size: 16px;
+        line-height: 1.6;
+        color: rgb(34, 33, 33);
+    }
+
+    img {
+        border-radius: 50px;
+    }
+
+    button {
+       padding: 20px;
+        font-size: 20px;
+        border: none;
+        font-weight: bold;
+        background-color: transparent;
+        color: #000038; 
+    }
+}
+
+.content5 {
+    display: flex;
+    justify-content: space-between;
+    padding: 0 50px;
+    margin: 50px 0;
+    align-items: center;
+}
+
+.content_5 {
+     h1 {
+        font-size: 32px;
+        font-weight: bolder;
+        margin-bottom: 20px;
+        color: #000038;
+
+    }
+
+    p {
+        font-size: 16px;
+        line-height: 1.6;
+        color: rgb(34, 33, 33);
+    }
+
+    img {
+        border-radius: 50px;
+    }
+
+    button {
+       padding: 20px;
+        font-size: 20px;
+        border: none;
+        font-weight: bold;
+        background-color: transparent;
+        color: #000038; 
+    }
+}
