@@ -9,11 +9,16 @@
     display: flex;
     justify-content: space-between;
     background-color: #000038;
-    padding: 20px 40px;
+    padding: 20px 100px;
     position: fixed;
     top: 0;
     left: 0;
     right: 0;
+}
+.menu {
+    display: none;
+    font-size: 20px;
+    color: aqua;
 }
 
 .logo {
@@ -46,7 +51,7 @@ a {
 .banner {
     background-color: #000038;
     text-align: center;
-    padding: 80px;
+    padding: 80px 100px;
 }
 h4 {
     font-size: 20px;
@@ -111,7 +116,7 @@ h4 {
 .content1 {
     display: flex;
     justify-content: space-between;
-    padding: 0 50px;
+    padding: 0 100px;
     margin: 50px 0;
 
 }
@@ -152,8 +157,9 @@ h4 {
 .content2 {
     display: flex;
     justify-content: space-between;
-    padding: 0 50px;
+    padding: 0 100px;
     align-items: center;
+    margin: 100px 0px;
 }
 
 .content_2 {
@@ -173,7 +179,7 @@ h4 {
 .content3 {
     display: flex;
     justify-content: space-between;
-    padding: 0 50px;
+    padding: 0 100px;
     margin: 50px 0;
 }
 
@@ -200,7 +206,7 @@ h4 {
 .content4 {
     display: flex;
     justify-content: space-between;
-    padding: 0 50px;
+    padding: 0 100px;
     margin: 50px 0;
     align-items: center;
 }
@@ -237,7 +243,7 @@ h4 {
 .content5 {
     display: flex;
     justify-content: space-between;
-    padding: 0 50px;
+    padding: 0 100px;
     margin: 50px 0;
     align-items: center;
 }
@@ -270,3 +276,152 @@ h4 {
         color: #000038; 
     }
 }
+
+
+/* RESPONSIVENESS */
+
+@media  screen and (max-width: 600px) {
+
+    body {
+        width: 100%;
+    }
+
+    .header {
+        width: 100%;
+        padding: 10px 30px;
+        align-items: center;
+    }
+    
+    nav {
+        display: none;
+    }
+
+    .menu {
+        display: block;
+    }
+    .banner {
+        padding: 80px 30px;
+
+        h4 {
+            font-size: 18px;
+        }
+        #h1 {
+            font-size: 24px;
+        }
+        #p {
+            margin: 10px 0px;
+            font-size: 16px;
+        }
+
+        #sign {
+            padding: 10px 20px;
+            background-color: #e09900;
+            color: #ffffff;
+            font-size: 20px;
+            font-weight: bold;
+            border: none;
+            border-radius: 50px;
+            margin-bottom: 20px;
+        }
+
+        img {
+            width: 350px;
+        }
+    }
+
+    .main {
+        width: 100%;
+    }
+
+    .rome {
+        padding: 30px;
+        
+        #h2 {
+            font-size: 28px;
+            margin-bottom: 10px;
+        }
+        #prome {
+            font-size: 18px;
+            margin-bottom: 10px;
+        }
+    }  
+    
+    
+    .content1 {
+        width: 100%;
+        display: flex;
+        flex-wrap: wrap;
+        padding: 0px 30px;
+
+        h2 {
+            font-size: 24px;
+        }
+
+        img {
+            width: 350px;
+        }
+    }
+
+    .content2 {
+        width: 100%;
+        display: flex;
+        flex-wrap: wrap;
+        padding: 0px 30px;
+
+        h1 {
+            font-size: 24px;
+        }
+        p {
+            font-size: 14px;
+        }
+    }
+
+    .content3 {
+        width: 100%;
+        display: flex;
+        flex-wrap: wrap;
+        padding: 0px 30px;
+
+        img {
+            width: 350px;
+        }
+
+        h1 {
+            font-size: 24px;
+            margin-bottom: 10px;
+        }
+    }
+
+    .content4 {
+        width: 100%;
+        display: flex;
+        flex-wrap: wrap;
+        padding: 0px 30px;
+
+        img {
+            width: 350px;
+        }
+
+        h1 {
+            font-size: 24px;
+            margin-bottom: 10px;
+        }
+    }
+
+    .content5 {
+        width: 100%;
+        display: flex;
+        flex-wrap: wrap;
+        padding: 0px 30px;
+
+        img {
+            width: 350px;
+        }
+
+        h1 {
+            font-size: 24px;
+            margin-bottom: 10px;
+        }
+    }
+}
+
