@@ -141,6 +141,7 @@ h4 {
     line-height: 1.9;
     font-weight: 500;
     color: #000038;
+    align-items: center;
 }
 
 .list_btn {
@@ -152,6 +153,11 @@ h4 {
     color: #ffffff;
     margin-top: 20px;
     cursor: pointer;
+}
+
+.bi-check-circle-fill {
+    background-color: #ffffff;
+    color: #e09900;
 }
 
 .content2 {
